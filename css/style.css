@@ -1,0 +1,116 @@
+/* Form */
+ div {
+  outline: 1px solid #666;
+} 
+.container {
+  margin: 0px auto;
+  padding: 20px 40px;
+  background-color: 
+}
+
+.form, .teacher {
+  background: #f2f2f2;
+  max-width: 300px;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+  opacity: 0.6
+  /*box-shadow: 0px 0px 10px grey;*/
+}
+.teacher {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.form p {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+.form input {
+  outline: 0;
+  background: #FFFFFF;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+}
+input[type="checkbox"]{
+  margin: 0px;
+  width: 30px;
+}
+.form button {
+  outline: 0;
+  background-color: #17A2B8;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.left {
+  background-color: red;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #17A2B8;
+  text-decoration: none;
+}
+.text {
+  max-width: 300px;
+  padding: 20px 0px;
+  color: #FFFFFF;
+}
+.media {
+  max-width: 300px;
+}
+
+.media ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content:space-between;
+}
+.media li {
+  width: 40%;
+  border-radius: 3px;
+  padding-right: 10px;
+}
+.media li a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  box-sizing: border-box;
+}
+.media li:nth-child(n) a::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  background-size: cover;
+}
+.media li:nth-child(1) {
+  background-color: #3A5BA0;
+}
+.media li:nth-child(1) a::before {
+    background-image: url(../img/fb.png);
+  
+}
+.media li:nth-child(2) {
+  background-color: #0BA0E8;
+}
+.media li:nth-child(2) a::before {
+    background-image: url(../img/twitter.png);
+}
