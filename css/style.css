@@ -1,2 +1,11 @@
 /* Form */
-
+body {
+  font-family: 'arial';
+  font-size: 18px;
+}
+.container {
+  margin: 0px auto;
+  padding: 100px 100px;
+  width: 900px;
+  background-image: url(../img/book-books-bookshelf-159621.jpg);
+}
