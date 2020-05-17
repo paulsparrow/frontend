@@ -9,3 +9,21 @@ body {
   width: 900px;
   background-image: url(../img/book-books-bookshelf-159621.jpg);
 }
+.form, .teacher {
+  background: #f2f2f2;
+  max-width: 300px;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+.teacher {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.form p {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
